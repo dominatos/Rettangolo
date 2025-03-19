@@ -5,17 +5,19 @@ public class Rettangolo {
     public int altezza;
     public int largezza;
 
-    public int getAltezza()
+    public void getAltezza()
     {
         System.out.println("Insira o altezza do rettangolo");
         int altezza=Integer.parseInt(sc.nextLine());
-        return altezza;
+        this.altezza=altezza;
+        //return altezza;
     }
 
-    public int getLargezza() {
+    public void getLargezza() {
         System.out.println("Insira o Largezza do rettangolo");
         int largezza=Integer.parseInt(sc.nextLine());
-        return largezza;
+        this.largezza=largezza;
+        //return largezza;
     }
 
     public int perimetro() {
