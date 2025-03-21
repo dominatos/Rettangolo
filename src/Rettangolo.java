@@ -31,8 +31,11 @@ public class Rettangolo {
         return arearet;}
     public void stampa()
     {
-        System.out.println(this.perimetro());
-        System.out.println(this.arearet());
+        System.out.println("Altezza: "+this.altezza);
+        System.out.println("Largezza: "+this.largezza);
+        System.out.println("perimetro:"+this.perimetro());
+        System.out.println("area: "+this.arearet());
+
     }
 }
 
